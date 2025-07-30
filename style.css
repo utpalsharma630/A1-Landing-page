@@ -43,3 +43,31 @@ nav h3{
     color: #252432;
    
 }
+main{
+    max-width: 1140px;
+    margin:100px auto;
+}
+.action-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.action-content{
+    width: 500px;
+}
+.action-image img{
+    border-radius: 48px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Raleway" sans-serif;
+    color: #252432;
+}
+.action-description{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Raleway" sans-serif;
+    color: #25243280;
+}
