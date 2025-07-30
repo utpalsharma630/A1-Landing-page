@@ -39,7 +39,7 @@ nav h3{
 .template-name{
     font-size: 65px;
     font-weight: 700;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #252432;
    
 }
@@ -51,7 +51,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+   margin:116px auto ;
 }
 .action-content{
     width: 500px;
@@ -62,12 +62,47 @@ main{
 .action-title{
     font-size: 42px;
     font-weight: 700;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #252432;
 }
 .action-description{
     font-size: 24px;
     font-weight: 400;
-    font-family: "Raleway" sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #25243280;
+}
+/* action section end */
+.users{
+    background-color: #4E47FF1A;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+
+.users-title{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    text-align: center;
+}
+.user-content{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.user{
+    line-height: 0;
+    text-align: center;
+}
+.user h2{
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.user p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #00000080;
 }
