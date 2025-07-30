@@ -106,3 +106,43 @@ main{
     font-family: "Inter", sans-serif;
     color: #00000080;
 }
+/* user section end */
+.our-users-box{
+    display: flex;
+    justify-content: space-between;
+}
+.our-users h3{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    text-align: center;
+}
+.user-card{
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+    width: 365px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:#1E1E1E ;
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color:#1E1E1E ;
+}
+.reviewer-name{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color:#757575 ;
+    margin-left: 30px;
+}
