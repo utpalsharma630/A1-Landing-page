@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+body{
+     background-color: #F5F8FF;
+}
 header{
     background-image: url(images/Hero-bg.png);
     background-size: cover;
@@ -46,6 +48,7 @@ nav h3{
 main{
     max-width: 1140px;
     margin:100px auto;
+   
 }
 .action-container{
     display: flex;
@@ -152,6 +155,9 @@ main{
 .ready-container{
     padding: 71px 150px;
     text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 135px;
+    border-radius: 14px;
 }
 .ready-container h2{
     font-size: 50px;
@@ -169,4 +175,42 @@ main{
 .ready-container img{
     border-radius: 48px;
     margin-top: 20px;
+}
+/* ready section end */
+
+.touch-container{
+    display: flex;
+    align-items: center;
+    padding: 71px 0px;
+    margin-top: 90px;
+}
+
+.touch-content h2{
+    font-size: 97px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+.form-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-content label{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter",sans-serif;
+    color:#000000 ;
+}
+.form-content input, textarea{
+    padding: 20px; ;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter",sans-serif;
+    color: #00000080;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    background: rgb(255, 255, 255);
+    margin-bottom: 18px;
 }
